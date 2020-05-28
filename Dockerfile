@@ -5,7 +5,7 @@ FROM python:3
 ENV PYTHONUNBUFFERED 1
 
 # work directory
-COPY . /backend
+RUN mkdir /backend
 WORKDIR /backend
 
 # project requirements
