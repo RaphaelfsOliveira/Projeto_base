@@ -76,9 +76,9 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': os.environ.get('POSTGRES_DB'),
-        'USER': os.environ.get('POSTGRES_USER'),
-        'PASSWORD': os.environ.get('POSTGRES_PASSWORD'),
+        'NAME': 'meetings_db',
+        'USER': 'meetings_admin',
+        'PASSWORD': 'password1',
         'HOST': 'postgres',
         'PORT': '5432',
     }
