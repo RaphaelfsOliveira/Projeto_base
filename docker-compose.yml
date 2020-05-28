@@ -4,7 +4,6 @@ services:
     backend:
         container_name: meetings_backend
         build: .
-        # command: > "python manage.py && python manage.py runserver 0.0.0.0:8000"
         command: python manage.py runserver 0.0.0.0:8000
         volumes:
             - ./backend:/backend
