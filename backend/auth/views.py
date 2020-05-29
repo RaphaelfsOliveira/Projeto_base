@@ -7,7 +7,7 @@ from .serializers import UserSerializer, GroupSerializer
 # Create your views here.
 class UserViewSet(viewsets.ModelViewSet):
     '''
-    API para criação e edição de usuários
+    API: Create, Retrieve, Update and Delete Users
     '''
     queryset = User.objects.all().order_by('date_joined')
     serializer_class = UserSerializer
@@ -16,7 +16,7 @@ class UserViewSet(viewsets.ModelViewSet):
 
 class GroupViewSet(viewsets.ModelViewSet):
     '''
-    API para criação e edição de usuários
+    API: Create, Retrieve, Update and Delete Groups
     '''
     queryset = Group.objects.all()
     serializer_class = GroupSerializer
