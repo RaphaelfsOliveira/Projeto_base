@@ -19,10 +19,12 @@ parso==0.7.0
 pexpect==4.8.0
 pickleshare==0.7.5
 prompt-toolkit==3.0.5
+psycopg2-binary==2.8.3
 ptyprocess==0.6.0
 Pygments==2.6.1
 PyJWT==1.7.1
 pylint==2.4.4
+python-decouple==3.3
 pytz==2019.3
 six==1.14.0
 sqlparse==0.3.1
@@ -30,4 +32,3 @@ traitlets==4.3.3
 typed-ast==1.4.1
 wcwidth==0.1.9
 wrapt==1.11.2
-psycopg2-binary==2.8.3
